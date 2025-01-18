@@ -4,7 +4,7 @@
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-text: #000000;
     --color-white: #FFFFFF;
 }
 
@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+ }
 
 .main-content {
     display: flex;

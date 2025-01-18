@@ -10,8 +10,8 @@ function adicionarAmigo() {
         alert("Por favor, digite um nome válido!");
     } else {
         amigos.push(nome);
-        amigoInput.value = "";  // Limpar o campo de entrada
-        amigoInput.focus();     // Focar novamente no campo de entrada
+        amigoInput.value = ""; 
+        amigoInput.focus();     
         atualizarLista();
     }
 }
@@ -19,8 +19,7 @@ function adicionarAmigo() {
 // Função para atualizar a lista de amigos na página
 function atualizarLista() {
     const listaAmigos = document.getElementById("listaAmigos");
-    listaAmigos.innerHTML = "";  // Limpar a lista antes de adicionar os novos itens
-
+    listaAmigos.innerHTML = "";  
     amigos.forEach(function(nome) {
         const li = document.createElement("li");
         li.textContent = nome;
