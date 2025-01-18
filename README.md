@@ -14,3 +14,5 @@ O projeto **Amigo Secreto** permite aos usuários inserir nomes de amigos em uma
 - **CSS:** Estilo e layout da página.
 - **JavaScript:** Funcionalidades de adicionar nomes, exibir lista e realizar sorteio aleatório.
 
+## Deploy
+- **GitHub Pages:** https://amykrumenauer.github.io/Amigo-Secreto/
